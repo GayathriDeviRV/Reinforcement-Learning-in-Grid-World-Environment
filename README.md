@@ -18,8 +18,8 @@ SARSA is an on-policy TD control algorithm that learns the optimal action-value 
 Expected SARSA is an extension of SARSA that computes the expected value of the next state-action pair instead of selecting the greedy action.
 
 ### Usage
-Install the required dependencies (gym, numpy, matplotlib).
-Import the necessary modules and classes from the provided code.
-Create an instance of the CustomGridworldEnv class with desired parameters (grid size and number of obstacles).
-Train the agent using one of the implemented algorithms by calling the respective function (q_learning, sarsa, expected_sarsa), providing the environment instance and other hyperparameters.
-Test the trained agent using the corresponding test function (test_agent_q_learning, test_agent_sarsa, test_agent_expected_sarsa), passing the environment instance and the learned Q-table.
+- Install the required dependencies (gym, numpy, matplotlib).
+- Import the necessary modules and classes from the provided code.
+- Create an instance of the CustomGridworldEnv class with desired parameters (grid size and number of obstacles).
+- Train the agent using one of the implemented algorithms by calling the respective function (q_learning, sarsa, expected_sarsa), providing the environment instance and other hyperparameters.
+- Test the trained agent using the corresponding test function (test_agent_q_learning, test_agent_sarsa, test_agent_expected_sarsa), passing the environment instance and the learned Q-table.
