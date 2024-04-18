@@ -220,8 +220,6 @@ def test_agent_sarsa(env, q_table):
     env.render()
 
 # Function to test the trained agent(Q-learning)
-
-
 def test_agent_q_learning(env, q_table):
     state = env.reset()
     env.render()
@@ -233,8 +231,6 @@ def test_agent_q_learning(env, q_table):
         env.render()
 
 # Function to test the trained agent(Expected SARSA)
-
-
 def test_agent_expected_sarsa(env, q_table):
     state = env.reset()
     env.render()
